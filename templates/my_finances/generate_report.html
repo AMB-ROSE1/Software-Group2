@@ -1,0 +1,34 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block title %}Generate Financial Report{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Generate Financial Report</h4>
+                </div>
+                <div class="card-body">
+                    <p class="lead">Generate a comprehensive report of your financial data including:</p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item">Balance Overview</li>
+                        <li class="list-group-item">Income and Outcome Summary</li>
+                        <li class="list-group-item">Budget Analysis</li>
+                        <li class="list-group-item">Savings Goals Progress</li>
+                        <li class="list-group-item">Transaction History</li>
+                    </ul>
+                    <form method="post" class="text-center">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-file-pdf mr-2"></i>Generate PDF Report
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

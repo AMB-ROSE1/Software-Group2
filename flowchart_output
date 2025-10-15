@@ -1,0 +1,31 @@
+// System Development Flowchart
+digraph {
+	nodesep=0.8 rankdir=TB ranksep=0.5 size="8,5" splines=ortho
+	node [fillcolor=lightblue fontname=Arial fontsize=12 margin="0.2,0.1" shape=box style=filled]
+	edge [fontname=Arial fontsize=10]
+	A [label=Start fillcolor=lightgreen shape=oval]
+	B [label=Planning]
+	C [label=Analysis]
+	D [label=Design]
+	E [label=Develop]
+	G [label=Implementation]
+	H [label=Testing]
+	I [label=Maintenance]
+	Z [label=End fillcolor=lightgreen shape=oval]
+	F [label="Is the system
+meeting requirements?" fillcolor=lightyellow shape=diamond]
+	J [label="Any bugs
+or issues?" fillcolor=lightyellow shape=diamond]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G [label=Yes]
+	G -> H
+	H -> J
+	J -> I [label=No]
+	I -> Z
+	F -> C [label=No]
+	J -> E [label=Yes]
+}
