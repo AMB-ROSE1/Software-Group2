@@ -40,7 +40,7 @@ If you don't have either of these programs installed, you can install them by fo
 
 1. Clone this repository to your local machine:
 
-    git clone https://github.com/Ambrose/Personal_finace_portal.git
+    git clone https://github.com/AMB-ROSE1/Personal_finace_portal.git
 
 
 2. Navigate to the root directory of the project:
