@@ -11,8 +11,8 @@ This is a personal finance application built using the Django web framework. It 
 - Secure login and data encryption
 
 ## Project ER Diagram
-![model diagram](https://github.com/Benji918/Personal_finance_portal/blob/main/Django%20app.png)
-![project diagram](https://github.com/Benji918/Personal_finance_portal/blob/main/img.png)
+![model diagram](https://github.com/Ambrose/Personal_finance_portal/blob/main/Django%20app.png)
+![project diagram](https://github.com/Ambrose/Personal_finance_portal/blob/main/img.png)
 
 ## Prerequisites
 
@@ -119,7 +119,7 @@ The Personal Finance Portal application uses the following technologies:
 - Bootstrap: a popular CSS framework for building responsive websites
 
 ## Contributors
-The Personal Finance Portal application is maintained by [[Benji918](https://github.com/Benji918)]. If you'd like to contribute to the project, please feel free to submit a pull request or open an issue.
+The Personal Finance Portal application is maintained by [Ambrose](https://github.com/Ambrose)]. If you'd like to contribute to the project, please feel free to submit a pull request or open an issue.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MusT Department of CS License. See the LICENSE file for details.
